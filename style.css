@@ -1,0 +1,74 @@
+:root{
+    --color-1: hsl(0, 0%, 52%);
+    --color-2: hsla(60, 100%, 50%, 0.612);
+    --color-3: hsl(0, 2%, 92%);
+    --color-4: hsl(0, 0%, 7%);
+}
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: var(--color-2);
+}
+.masthead{
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 3.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/wp8562689-toasted-bread-wallpapers\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+}
+.masthead #itens{
+  padding: 100px;
+}
+header.masthead h1, header.masthead .h1 {
+    font-size: 2.25rem;
+  }
+  @media (min-width: 992px) {
+    header.masthead {
+      height: 100vh;
+      min-height: 40rem;
+      padding-top: 4.5rem;
+      padding-bottom: 0;
+    }
+    header.masthead p {
+      font-size: 1.15rem;
+    }
+    header.masthead h1, header.masthead .h1 {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    header.masthead h1, header.masthead .h1 {
+      font-size: 3.5rem;
+    }
+  } 
+#about{
+    color: var(--color-4);
+    width: 50%;
+    display: inline-block;
+}
+
+#divider{
+    color: var(--color-2);
+    height: 10px;
+}
+.img{
+    position: relative;
+    display: flex;
+    
+}
+#section1{
+  width: 100%;
+  padding: 30px;
+}
+.img img{
+  border-radius: 10%;
+}
+
+#botao{
+  color: var(--color-4);
+  background-color: var(--color-2);
+}
