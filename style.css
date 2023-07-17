@@ -4,9 +4,6 @@
     --color-3: hsl(0, 2%, 92%);
     --color-4: hsl(0, 0%, 7%);
 }
-*{
-    font-family:Arial, Helvetica, sans-serif;
-}
 .navbar{
     background-color: var(--color-2);
 }
@@ -71,4 +68,26 @@ header.masthead h1, header.masthead .h1 {
 #botao{
   color: var(--color-4);
   background-color: var(--color-2);
+}
+
+#iframemap{
+  width: 350px;
+  height: 300px;
+  border-radius: 2%;
+  margin-left: 3%;
+}
+
+.back{
+  background-color: var(--color-2);
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+#botao2{
+  background-color: var(--color-3);
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
