@@ -71,7 +71,7 @@ header.masthead h1, header.masthead .h1 {
 #botao{
   color: var(--color-4);
   background-color: var(--color-2);
-  height: 70px;
+  height: 50px;
   text-align:center;  
   padding: 10px;
 }
