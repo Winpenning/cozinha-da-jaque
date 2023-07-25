@@ -5,7 +5,8 @@
     --color-4: hsl(0, 0%, 7%);
     --color-5: hsl(0, 50%,100%);
     --color-6: hsl(142, 70%, 49%);
-}
+    --color-7: hsla(60, 94%, 37%, 0.612);
+  }
 .navbar{
     background-color: var(--color-2);
 }
@@ -119,4 +120,12 @@ header.masthead h1, header.masthead .h1 {
 
 .card{
   height: 500px;
+}
+
+footer{
+  background-color: var(--color-7);
+}
+
+a{
+  color: black;
 }
